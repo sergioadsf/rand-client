@@ -10,7 +10,7 @@ class Form extends Component {
                         <div className="col-md-12">
                             <center>
                                 <button disabled={this.props.isListPressed === true}
-                                    className="btn btn-primary" onClick={this.props.onSaveClick}>List All</button>
+                                    className="btn btn-primary" onClick={this.props.onSaveClick}>{this.props.txtSaveButton ? this.props.txtSaveButton : "List All"}</button>
                                 &nbsp;
                                 <button onClick={this.props.onClearClick} className="btn btn-warning">Clear</button>
                             </center>

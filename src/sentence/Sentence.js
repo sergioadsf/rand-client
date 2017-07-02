@@ -24,7 +24,7 @@ class Sentence extends IForm {
                 <Header title="SENTENCE"></Header>
 
                 <Form onClearClick={this.onClearClick} isListPressed={this.state.isListPressed}
-                    onSaveClick={this.onSaveClick}></Form>
+                    onSaveClick={this.onSaveClick} txtSaveButton="Get Phrase"></Form>
                     
                 <Word param={this.state.item}></Word>
             </div >
